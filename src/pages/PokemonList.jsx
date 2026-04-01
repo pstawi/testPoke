@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import PokemonCard from '../components/PokemonCard.jsx'
 
 const API_BASE = 'https://pokeapi.co/api/v2'
-const LIMIT = 151
+const LIMIT = 251
 
 export default function PokemonList() {
   const [pokemons, setPokemons] = useState([])
